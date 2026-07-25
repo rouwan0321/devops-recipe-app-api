@@ -69,7 +69,7 @@ data "aws_iam_policy_document" "ecr" {
     effect = "Allow"
     actions = [
       "ecr:CompleteLayerUpload",
-      "ecr:UploadLazerPart",
+      "ecr:UploadLayerPart",
       "ecr:InitiateLayerUpload",
       "ecr:BatchCheckLayerAvailability",
       "ecr:PutImage"
