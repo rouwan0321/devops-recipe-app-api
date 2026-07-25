@@ -37,5 +37,5 @@ jobs:
           docker build --compress -t ${{ vars.ECR_REPO_APP }}:$GITHUB_SHA .
           docker push ${{ vars.ECR_REPO_APP }}:$GITHUB_SHA
           docker build --compress -t ${{ vars.ECR_REPO_PROXY }}:$GITHUB_SHA proxy/
-          docher push ${{ vars.ECR_REPO_PROXY }}:$GITHUB_SHA
+          docker push ${{ vars.ECR_REPO_PROXY }}:$GITHUB_SHA
 
