@@ -11,7 +11,7 @@ terraform {
     key               = "tf-state-setup"
     region            = "eu-central-1"
     encrypt           = true
-    dynamodb_endpoint = "devops-recipe-app-api-tf-lock-202607"
+    dynamodb_endpoint = "devops-decipe-app-api-tf-lock-202607"
   }
 }
 
