@@ -82,7 +82,7 @@ resource "aws_ecs_task_definition" "api" {
           value = aws_db_instance.main.password
         },
         {
-          name  = "ALLOWED_HOST"
+          name  = "ALLOWED_HOSTS"
           value = "*"
         }
       ]
